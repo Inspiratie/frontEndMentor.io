@@ -22,22 +22,34 @@ header {
 }
 
 header > div {
-    margin-top: 1.9rem;
+    margin-top: 2.2rem;
     margin-right: 3rem;
 }
 
 a {
     text-decoration: none;
     font-family: 'Monoton';
+    background-color: white;
+    border-radius: 3rem;
+    padding: 0.5rem;
+    border: 3px solid rgb(33, 33, 99);
+    color:rgb(33, 33, 99);
+    transition: 0.3s;
 }
 
-button {
-    background-color: rgb(242, 231, 136);
-    border: none;
-    border-radius: 0.2rem;
-    padding: 0.5rem;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+a:hover {
+    background-color: rgb(33, 33, 99);
+    color: white;
+    border-radius: 0.5rem;
+    transition: 0.3s;
 }
+
+input {
+    color: black;
+    border: none;
+    background-color:seashell;
+}
+
 
 
 

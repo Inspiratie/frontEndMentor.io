@@ -9,10 +9,10 @@
 </head>
 <body>
     <header>
-        <h1>memory</h1>
+        <h1 id="heading">memory</h1>
         <div>
-            <button><a href="#">Restart</a></button>
-            <button><a href="#">Start  Game</a></button>
+            <a onclick="incrementNum()" href="#">Restart</a>
+            <a onclick="showNum()" href="#">New Game</a>
         </div>
     </header>
 
@@ -33,6 +33,9 @@
         <div class="circle"></div>
         <div class="circle"></div>
         <div class="circle"></div>
+
+        <input id="output" type="text">
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
