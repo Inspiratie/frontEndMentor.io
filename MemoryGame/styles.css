@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+header {
+    padding-bottom: 9rem;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+
+header > div {
+    margin-top: 1.9rem;
+    margin-right: 3rem;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Monoton';
+}
+
+button {
+    background-color: rgb(242, 231, 136);
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+
+h1 {
+    font-family: 'Monoton';
+    margin-left: 3rem;
+    
+}
+
+main {
+    margin: auto;
+    height: 12rem;
+    width: 18rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.circle {
+    background-color: rgb(33, 33, 99);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 4rem;
+}
+
+.circle:hover {
+    background-color: khaki;
+    transition: 0.2s;
+}
